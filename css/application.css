@@ -12,3 +12,28 @@
   opacity: 1;
   animation: blink .7s infinite;
 }
+
+.port-view-more-blue {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 37px;
+  font-family: 'Lato',Arial,Helvetica,sans-serif;
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  transition: all .3s ease 0s;   
+}
+
+
+.affix.header-1 #main-menu .navbar .nav > li.current > a {
+  border-color: rgb(21, 132, 203);	
+}
+
+.header-1 #main-menu .navbar .nav  > li.current > a {
+  border-bottom: 2px solid rgb(21, 132, 203);
+}
