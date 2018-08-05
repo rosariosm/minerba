@@ -848,7 +848,7 @@
           	        
 				
         <!-- FOOTER 2 -->
-        <footer id="footer2" class="page-section pt-80 pb-50">
+        <footer id="footer2" class="page-section pt-80 pb-50 footer2-black">
           <div class="container">
             <div class="row">
             
@@ -871,17 +871,17 @@
                   <a class="a-text" href="mailto:info@haswell.com">contact@corporatecommunication.info</a>
                 </div>
               </div>
-              
+              <div class="col-md-3 col-sm-3 widget">                                  
+              </div>
               <div class="col-md-3 col-sm-3 widget">
-                <h4>NAVIGATE</h4>
-                <ul class="links-list bold a-text-cont">
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="grid-system.html">GRID SYSTEM</a></li>
-                  <li><a href="services.html">SERVICES</a></li>
-                  <li><a href="index-portfolio.html">PORTFOLIO</a></li>
-                  <li><a href="index-blog.html">BLOG</a></li>
-                  <li><a href="index-shop.html">SHOP</a></li>
-                  <li><a href="intro.html">PAGES</a></li>
+                <h4>MINERBA</h4>
+                <ul  id="nav-onepage-footer" class="links-list bold a-text-cont">
+                  <li><a href="#home">HOME</a></li>
+                  <li><a href="#services">SERVICIOS</a></li>
+                  <li><a href="#we-are-different">SOMOS DIFERENTES</a></li>
+                  <li><a href="#processes">PROCESOS</a></li>
+                  <li><a href="#who-we-are">QUIENES SOMOS</a></li>
+                  <li><a href="#contact">CONTACTO</a></li>                  
                 </ul>
               </div>
               
@@ -894,45 +894,15 @@
                   <li><a href="http://themeforest.net/legal/market">TERMS OF SERVICE</a></li>
                   <li><a href="contact.html">CONTACT</a></li>
                 </ul>
-              </div>
+              </div>              
               
-              <div class="col-md-3 col-sm-3 widget">
-                <h4>RECENT POSTS</h4>
-                <div id="post-list-footer">
-
-                  <div class="post-prev-title">
-                    <h3><a class="a-text"  href="blog-single-sidebar-right.html">New trends in web design</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                    Jule 10
-                  </div>
-                   
-                  <div class="post-prev-title">
-                    <h3><a class="a-text"  href="blog-single-sidebar-right.html">The sound of life</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                    October 10
-                  </div>
-                   
-                  <div class="post-prev-title">
-                    <h3><a class="a-text"  href="blog-single-sidebar-right.html">Time for minimalism</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                     September 21
-                  </div>
-
-                </div>                  
-              </div>
             </div>    
             
             <div class="footer-2-copy-cont clearfix">
               <!-- Social Links -->
               <div class="footer-2-soc-a right">
-                <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a href="https://www.facebook.com/psmcorpcomm" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/PSMCorpcomm" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>               
               </div>
               
               <!-- Copyright -->
@@ -970,9 +940,7 @@
     <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
     
-    <!-- COUNTER -->
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    
+       
     <!-- APPEAR -->    
     <script type="text/javascript" src="js/jquery.appear.js"></script>
     
@@ -998,6 +966,25 @@
       var top_offset = $('header').height() - 1;  // get height of fixed navbar
 
       $('#nav-onepage').onePageNav({
+        currentClass: 'current',
+        changeHash: false,
+        scrollSpeed: 700,
+        scrollOffset: top_offset,
+        scrollThreshold: 0.5,
+        filter: '',
+        easing: 'swing',
+        begin: function() {
+          //I get fired when the animation is starting
+        },
+        end: function() {
+          //I get fired when the animation is ending
+        },
+        scrollChange: function($currentListItem) {
+          //I get fired when you enter a section and I pass the list item of the section
+        }
+      });
+
+      $('#nav-onepage-footer').onePageNav({
         currentClass: 'current',
         changeHash: false,
         scrollSpeed: 700,
