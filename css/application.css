@@ -37,3 +37,17 @@
 .header-1 #main-menu .navbar .nav  > li.current > a {
   border-bottom: 2px solid rgb(21, 132, 203);
 }
+
+.main-menu-contact-icon {
+  border: none;
+  color: #4b4e53;
+}
+
+.menu-contact-info {
+  color: #4b4e53;
+  background-color: #fff;
+}
+
+.menu-contact-info .contact-list .a-mail {
+  color: #4b4e53 !important;   
+}

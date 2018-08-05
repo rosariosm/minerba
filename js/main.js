@@ -618,9 +618,9 @@ function initMap(){
           action: "init",
           marker: {
               address: gmMarkerAddress,
-              options: {
+              /*options: {
                   icon: "images/loc-marker.png"
-              }
+              }*/
           },
           map: {
               options: {
