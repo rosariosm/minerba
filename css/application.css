@@ -1,3 +1,14 @@
 .full-height{
   height: 100vh;
 }
+
+.typewrite {
+  font-weight: bold;
+  /*border-bottom: 4px solid #82B541;
+  transition: border-color .3s ease-in-out;*/
+}
+
+.cursor {
+  opacity: 1;
+  animation: blink .7s infinite;
+}
