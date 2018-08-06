@@ -49,5 +49,29 @@
 }
 
 .menu-contact-info .contact-list .a-mail {
-  color: #4b4e53 !important;   
+  color: #4b4e53 !important;
+  transition: all .3s ease 0s;   
+}
+
+.menu-contact-info .contact-list .a-mail:hover {
+  color: rgb(21, 132, 203) !important;   
+}
+
+.menu-contact-text-container {
+  padding-top: 9px;
+}
+
+@media only screen and (max-width: 991px) {
+    ul.contact-list {
+      padding-left: 0px;
+    }
+
+    .main-menu-contact-icon {
+      padding: 12px 12px 12px 0;
+    }
+
+    .menu-contact-text-container {
+      padding-left: 33px;
+      padding-top: 8px;
+    }
 }
