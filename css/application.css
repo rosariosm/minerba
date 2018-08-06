@@ -101,4 +101,25 @@
       padding-left: 33px;
       padding-top: 8px;
     }
+
+    /* OWL CAROUSEL WHO-WE-ARE */
+
+    .fes7-img {
+      height: 180px;
+    }
+
+    .p-80-cont {
+      padding: 1em;
+    }
+
+    .fes7-text-cont h1 {
+      font-weight: bold;
+      font-size: 2em;
+      line-height: 1.3em;
+      margin-bottom: 1em;
+    }
+
+    .mb-60 {
+      margin-bottom: 0px !important;
+    }
 }
