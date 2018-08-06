@@ -18,20 +18,19 @@
   padding-top: 40px;
   padding-bottom: 37px;
   font-family: 'Lato',Arial,Helvetica,sans-serif;
-  background: #1488CC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: radial-gradient(circle,#1280e1 0%,#002069 100%);
+  background: linear-gradient(-180deg,#1280e1 0%,#002069 100%);
   color: #fff;
   font-size: 18px;
   line-height: 18px;
   font-weight: normal;
   letter-spacing: 4px;
-  transition: all .3s ease 0s;   
+  transition: all .3s ease 0s;
 }
 
 
 .affix.header-1 #main-menu .navbar .nav > li.current > a {
-  border-color: rgb(21, 132, 203);	
+  border-color: rgb(21, 132, 203);
 }
 
 .header-1 #main-menu .navbar .nav  > li.current > a {
@@ -50,11 +49,11 @@
 
 .menu-contact-info .contact-list .a-mail {
   color: #4b4e53 !important;
-  transition: all .3s ease 0s;   
+  transition: all .3s ease 0s;
 }
 
 .menu-contact-info .contact-list .a-mail:hover {
-  color: rgb(21, 132, 203) !important;   
+  color: rgb(21, 132, 203) !important;
 }
 
 .menu-contact-text-container {
@@ -65,9 +64,29 @@
   border-left:  rgb(21, 132, 203) 2px solid;
 }
 
+
+/* SERVICES BOXES */
+.port-overlay-cont {
+  opacity: 1;
+}
+
 .port-title-cont {
   opacity: 1;
 }
+
+.port-title-cont h2{
+  color: #fff;
+}
+
+.port-btn-cont {
+  opacity: 0;
+}
+
+.port-item:hover .port-overlay-cont .port-btn-cont {
+  opacity: 1;
+  color: #b9b9b9;
+}
+
 
 @media only screen and (max-width: 991px) {
     ul.contact-list {
