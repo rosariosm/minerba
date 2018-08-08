@@ -85,10 +85,11 @@
   color: #b9b9b9;
 }
 
+.white-border {
+  border-bottom: 2px solid white;
+}
+
 /* CAROUSEL WHO WE ARE */
-
-
-
 
 @media only screen and (max-width: 991px) {
     ul.contact-list {

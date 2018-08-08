@@ -22,7 +22,7 @@ var TxtType = function(el, toRotate, period) {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
 
-        this.el.innerHTML = "<span class='wrap' style='border-bottom: 2px solid rgb(21, 132, 203); display: table-cell;'>"+this.txt+'</span><span class="cursor" style="display: table-cell; font-weight: 100">|</span>';
+        this.el.innerHTML = "<span class='wrap' style='border-bottom: 2px solid rgb(21, 132, 203); display: table-cell;'>"+this.txt+'</span><span class="cursor white-border" style="display: table-cell; font-weight: 100">|</span>';
 
         var that = this;
         var delta = 200 - Math.random() * 100;
