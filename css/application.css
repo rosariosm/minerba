@@ -89,6 +89,10 @@
   border-bottom: 2px solid white;
 }
 
+.fes7-text-cont h1 {
+  margin-bottom: 0px;
+}
+
 /* CAROUSEL WHO WE ARE */
 
 @media only screen and (max-width: 991px) {
