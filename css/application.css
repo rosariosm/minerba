@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.half-height{
+  
+}
+
 .typewrite {
   font-weight: bold;
   /*border-bottom: 4px solid #82B541;
@@ -82,7 +86,7 @@
 
 .port-item:hover .port-overlay-cont .port-btn-cont {
   opacity: 1;
-  color: #e5e5e5;
+  color: #  ;
 }
 
 .white-border {
@@ -102,7 +106,8 @@
 }
 
 .work-proc-1-bg {
-  background: #2c2c2c url(../images/oficina1.jpeg) fixed;
+  /*background: #2c2c2c url(../images/oficina1.jpeg) fixed;*/
+  background: #2c2c2c url(../images/oficina1.jpg) fixed;
   background-size: 100%;
 }
 
@@ -117,6 +122,29 @@
 
 .port-main-img{
   filter: grayscale(1);
+}
+
+
+ .owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.owl-item{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto !important;
+}
+
+.owl-wrapper {
+  display: flex !important;
 }
 
 
@@ -158,8 +186,21 @@
 
     /* OWL CAROUSEL WHO-WE-ARE */
 
-    .fes7-img {
-      height: 180px;
+    .fes7-img {      
+      background-size: contain;
+      width: 50%;    
+      height: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .fes7-img-cont {
+      height: inherit;
+    }
+
+    .half-height{
+      height: inherit;
     }
 
     .p-80-cont {
