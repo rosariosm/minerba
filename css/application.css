@@ -82,7 +82,7 @@
 
 .port-item:hover .port-overlay-cont .port-btn-cont {
   opacity: 1;
-  color: #b9b9b9;
+  color: #e5e5e5;
 }
 
 .white-border {
@@ -106,6 +106,18 @@
   background-size: 100%;
 }
 
+.port-item .port-img-overlay:after {  
+  background: rgba(4, 78, 161, 0.66);
+}
+
+.port-item:hover .port-img-overlay:after {
+  background: rgba(0, 73, 157, 0.81);
+  filter: brightness(40%);
+}
+
+.port-main-img{
+  filter: grayscale(1);
+}
 
 
 @media only screen and (max-width: 991px) {
