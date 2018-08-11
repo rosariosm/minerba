@@ -101,9 +101,19 @@
   width: 12em;
 }
 
+.work-proc-1-bg {
+  background: #2c2c2c url(../images/oficina1.jpeg) fixed;
+  background-size: 100%;
+}
+
 
 
 @media only screen and (max-width: 991px) {
+    .work-proc-1-bg {
+      background-position: right;
+      background-size: cover;
+    } 
+
     .logo-img {
       height: 42px;
     }
