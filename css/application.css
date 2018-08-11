@@ -93,9 +93,34 @@
   margin-bottom: 0px;
 }
 
-/* CAROUSEL WHO WE ARE */
+.logo-img{
+  height: auto;
+}
+
+.logo-2 {
+  width: 12em;
+}
+
+
 
 @media only screen and (max-width: 991px) {
+    .logo-img {
+      height: 42px;
+    }
+
+    .port-overlay-cont, .port-btn-cont {
+      opacity: 1;
+    }
+
+    .port-btn-cont {
+      color: #b9b9b9;
+    }
+
+    .port-title-cont h2 {
+      font-size: 1.5em;
+      margin: 15px 0 0 0;
+    }
+
     ul.contact-list {
       padding-left: 0px;
     }
