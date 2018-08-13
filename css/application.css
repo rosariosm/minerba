@@ -1,9 +1,9 @@
 .full-height{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .half-height{
-  
+
 }
 
 .typewrite {
@@ -111,7 +111,7 @@
   background-size: 100%;
 }
 
-.port-item .port-img-overlay:after {  
+.port-item .port-img-overlay:after {
   background: rgba(4, 78, 161, 0.66);
 }
 
@@ -155,12 +155,12 @@
 @media only screen and (max-width: 991px) {
     .no-padding {
       padding: 0;
-    } 
+    }
 
     .work-proc-1-bg {
       background-position: right;
       background-size: cover;
-    } 
+    }
 
     .logo-img {
       height: 42px;
@@ -194,9 +194,9 @@
 
     /* OWL CAROUSEL WHO-WE-ARE */
 
-    .fes7-img {      
+    .fes7-img {
       background-size: contain;
-      width: 50%;    
+      width: 50%;
       height: 200px;
       display: block;
       margin-left: auto;
