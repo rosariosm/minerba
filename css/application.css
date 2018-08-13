@@ -102,13 +102,18 @@
 }
 
 .logo-2 {
+  width: 17em;
+}
+
+.header.affix .logo-2 {
   width: 12em;
 }
 
 .work-proc-1-bg {
   /*background: #2c2c2c url(../images/oficina1.jpeg) fixed;*/
   background: #2c2c2c url(../images/oficina1.jpg) fixed;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .port-item .port-img-overlay:after {
@@ -150,6 +155,17 @@
 .dd-list {
   margin: 1.3em 0;
 }
+
+.fes7-img-cont {
+  padding: 6em;
+}
+
+.fes7-img {
+  position: initial;
+  background-size: contain;
+  background-position: top;
+}
+
 
 
 @media only screen and (max-width: 991px) {
@@ -205,6 +221,7 @@
 
     .fes7-img-cont {
       height: inherit;
+      padding: 0;
     }
 
     .half-height{
@@ -226,6 +243,13 @@
       margin-bottom: 0px !important;
     }
 }
+
+@media only screen and (min-width: 991px) and (max-width: 1441px){
+  .who-we-are-p {
+    font-size: 0.8em;
+    line-height: 18px;
+  }
+}  
 
 /* TYPEWRITER */
 
