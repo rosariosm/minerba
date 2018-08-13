@@ -166,6 +166,13 @@
   background-position: top;
 }
 
+.logo-2.logo-services {
+  width: 12em;
+}
+
+.page-title.services {
+  font-size: 4em;
+}
 
 
 @media only screen and (max-width: 991px) {
