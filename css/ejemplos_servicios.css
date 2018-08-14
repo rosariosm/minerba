@@ -1,0 +1,35 @@
+
+
+.port-img-overlay.bn {
+	filter: brightness(50%);
+}
+
+.port-item .bn::after {
+  background: none;
+}
+
+.port-item:hover .bn:after {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.port-main-img.bn {
+	filter: grayscale(1) brightness(50%);
+}
+
+
+
+.port-img-overlay.bngr {
+	filter: brightness(60%);
+}
+
+.port-item .bngr::after {
+  background: linear-gradient(#111111, #0f0e0ec9, #00000063, #9f9f9f0d);
+}
+
+.port-item:hover .bngr:after {
+	background: linear-gradient(#000000, #000000c4, #000000b3, #9f9f9f0d);
+}
+
+.port-main-img.bngr {
+	filter: grayscale(1) brightness(90%);
+}
