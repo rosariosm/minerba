@@ -172,10 +172,16 @@
 
 .page-title.services {
   font-size: 4em;
+  line-height: 1em;
 }
 
 
 @media only screen and (max-width: 991px) {
+    .page-title.services {
+      font-size: 1.7em;
+      line-height: 1.3em;
+    }
+
     .no-padding {
       padding: 0;
     }
