@@ -30,22 +30,14 @@
   }
 }
 
-
-
-
 .light-72-wide {
   letter-spacing: 6px;
 }
 
 .typewrite {
   font-weight: bold;
-  /*border-bottom: 4px solid #82B541;
-  transition: border-color .3s ease-in-out;*/
-}
-
-.cursor {
-  opacity: 1;
-  animation: blink .7s infinite;
+  border-bottom: 4px solid #1584CB;
+  transition: border-color .3s ease-in-out;
 }
 
 .port-view-more-blue {
@@ -298,33 +290,4 @@
     font-size: 0.8em;
     line-height: 18px;
   }
-}
-
-/* TYPEWRITER */
-
-.ityped-cursor {
-    font-size: 2.2rem;
-    opacity: 1;
-    -webkit-animation: blink 0.3s infinite;
-    -moz-animation: blink 0.3s infinite;
-    animation: blink 0.3s infinite;
-    animation-direction: alternate;
-}
-
-@keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes blink {
-    100% {
-        opacity: 0;
-    }
 }
