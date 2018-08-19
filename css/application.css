@@ -2,8 +2,39 @@
   min-height: 100vh;
 }
 
-.half-height{
 
+/* HOME */
+
+
+@media only screen and (min-width: 1170px) {
+  .cd-headline {
+    font-size: 4rem;
+  }
+
+  .cd-headline p.white-border {
+    font-size: 6rem;
+    letter-spacing: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-headline p.white-border {
+    font-size: 5rem;
+    letter-spacing: .7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .full-width {
+    width: 100%;
+  }
+}
+
+
+
+
+.light-72-wide {
+  letter-spacing: 6px;
 }
 
 .typewrite {
@@ -88,6 +119,10 @@
   opacity: 1;
   color: #d5d1d1;
 }
+
+
+
+/* END SERVICES*/
 
 .white-border {
   border-bottom: 2px solid white;
