@@ -2,6 +2,12 @@
   min-height: 100vh;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* HOME */
 
@@ -204,6 +210,26 @@
 
 
 @media only screen and (max-width: 991px) {
+    .flex-center {
+      display: initial;
+    }
+
+    .section-title-3.p-line {
+      font-size: 1em;
+      line-height: 1.6em;
+      letter-spacing: .1rem;
+    }
+
+    .no-padding {
+      padding: 0;
+    }
+
+    .post-prev-img img {
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+
     .page-title.services {
       font-size: 1.7em;
       line-height: 1.3em;
