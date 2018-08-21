@@ -247,9 +247,9 @@ function initMenu() {
 	  body    = $('body'),
 	  primary = '#main-menu';
   
-  $(primary).find('.parent > a .open-sub, .megamenu .title .open-sub').remove();
+  //$(primary).find('.parent > a .open-sub, .megamenu .title .open-sub').remove();
   
-  $(primary).find('.parent > a, .megamenu .title').append('<span class="open-sub"></span>');
+  //$(primary).find('.parent > a, .megamenu .title').append('<span class="open-sub"></span>');
 	  
   $(primary).on('click','.open-sub', function(event){	  
 	event.preventDefault();
