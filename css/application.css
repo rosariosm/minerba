@@ -243,6 +243,10 @@
   line-height: 1em;
 }
 
+.post-prev-date-cont{
+  top: 15px;
+}
+
 
 @media only screen and (max-width: 991px) {
     .flex-center {
@@ -356,5 +360,9 @@
 @media only screen and (max-width: 768px) {
   .full-height{
     min-height: initial;
+  }
+
+  .blog2-post-title-cont .post-prev-title {
+    margin-left: 90px;
   }
 }
