@@ -46,6 +46,17 @@
   margin: 0 !important;
 }
 
+.gray-background {
+  padding: 1em;
+  background: #eee;
+  margin: 0;
+  
+}
+
+.gray-background p {
+  font-size: 1.3em;
+}
+
 .cd-headline {
   font-size: 2rem;
   line-height: 1.6em;
@@ -68,6 +79,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .gray-background {
+    padding: 3em;
+    background: #eee;
+    margin: 2em;
+  }
   .cd-headline {
     font-size: 4.4rem;
     font-weight: 300;
