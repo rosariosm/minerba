@@ -19,19 +19,20 @@
   }
 }
 .cd-headline {
-  font-size: 3rem;
-  line-height: 1.2;
+  /*font-size: 3rem;
+  line-height: 1.2;*/
 }
 @media only screen and (min-width: 768px) {
-  .cd-headline {
+  /*.cd-headline {
     font-size: 4.4rem;
     font-weight: 300;
-  }
+    line-height: 1.6em;
+  }*/
 }
 @media only screen and (min-width: 1170px) {
-  .cd-headline {
+  /*.cd-headline {
     font-size: 4rem;
-  }
+  }*/
 }
 .cd-words-wrapper {
   display: inline-block;

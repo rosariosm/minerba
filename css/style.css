@@ -2660,9 +2660,9 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     height: 350px; /*300*/
   }
   .sm-content-cont .light-72-wide, .sm-content-cont-fullscr .light-72-wide{
-    font-size:25px;
+    /*font-size:25px;
     line-height:30px;
-    letter-spacing:3px;
+    letter-spacing:3px;*/
   }
   .light-72-wide, .sm-content-cont .light-50-wide {
     font-size:21px;
