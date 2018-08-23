@@ -12,6 +12,10 @@ p, .blog2-post-prev-text, .icon-list li {
   text-align: justify;
 }
 
+blockquote {
+  border-left: 2px solid rgb(21, 132, 203);
+}
+
 
 
 /* HOME */
