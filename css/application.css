@@ -206,6 +206,11 @@ blockquote {
 
 .port-title-cont h2{
   color: #fff;
+  margin: 80px 0 18px 0;
+}
+
+.port-item:hover .port-overlay-cont {
+  top: -50px;
 }
 
 .port-btn-cont {
@@ -461,3 +466,15 @@ blockquote {
   }
 
 }
+
+
+
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 601px) and (max-width: 900px) {}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {}
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {}
+@media only screen and (min-width: 1801px) {}
+
+
+
+
