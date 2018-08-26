@@ -950,7 +950,18 @@
 
     <!-- TYPEWRITER -->
     <script type="text/javascript" src="../js/typed.js"></script>
-    <script type="text/javascript" src="../js/text-rotator.js"></script>
+    <script>   
+      $( document ).ready(function() {
+        var typed = new Typed('#typed', {
+          strings: ["START-UPS POSITION THEIR COMPANIES", "MULTINATIONALS DEAL WITH CRISIS", "LEADERS THROUGH THEIR TOUGHEST TASKS", "CONSOLIDATE YOUR BUSINESS IMAGE", "YOU COMMUNICATE EFFECTIVELY"],
+          typeSpeed: 60,
+          backSpeed: 12,
+          backDelay: 1300,
+          loop: true,
+          loopCount: Infinity,
+        });
+      });
+    </script>
 
 
      <!-- ONE PAGE NAV -->
