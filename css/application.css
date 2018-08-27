@@ -20,6 +20,15 @@ blockquote {
   font-weight: bold;
 }
 
+.inner-link {
+  transition: 0.3s;
+}
+
+.inner-link:hover {
+  color: white;
+  font-weight: 400;
+}
+
 
 
 /* HOME */
@@ -333,7 +342,7 @@ blockquote {
   margin: 50px 0 18px 0;
   font-size: 1.7em;
   line-height: 1em;
-}  
+}
 
 .port-overlay-cont {
   padding: 2.2em;
@@ -512,7 +521,7 @@ blockquote {
     margin: 50px 0 18px 0;
     font-size: 1.7em;
     line-height: 1em;
-  }  
+  }
 
   .port-item:hover .port-overlay-cont {
     top: -50px;
@@ -593,7 +602,7 @@ blockquote {
     margin: 80px 0 18px 0;
     font-size: 2.2em;
     line-height: 1em;
-  }  
+  }
 
   .port-item:hover .port-overlay-cont {
     top: -70px;
@@ -671,7 +680,7 @@ blockquote {
     margin: 80px 0 18px 0;
     font-size: 2.5em;
     line-height: 1em;
-  }  
+  }
 
   .port-item:hover .port-overlay-cont {
     top: -50px;
