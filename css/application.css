@@ -319,6 +319,15 @@ blockquote {
   padding: 0 0 15px 20px;
 }
 
+.mobile .port-overlay-cont {
+  display: initial;
+  visibility: visible;
+}
+
+.icon-search, .icon_search:before {
+  display: none;
+}
+
 
 @media only screen and (max-width: 991px) {
     .flex-center {
@@ -365,12 +374,13 @@ blockquote {
     }
 
     .port-btn-cont {
-      color: #b9b9b9;
+      color: #e7e5e5;
     }
 
     .port-title-cont h2 {
       font-size: 1.5em;
       margin: 15px 0 0 0;
+      color: #fefefe;
     }
 
     ul.contact-list {
@@ -461,9 +471,14 @@ blockquote {
 
 
 
+
+
 @media only screen and (max-width: 600px) {}
 @media only screen and (min-width: 601px) and (max-width: 900px) {}
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .icon-search {
+    display: none;
+  }
   .port-title-cont h2{
     color: #fff;
     margin: 50px 0 18px 0;
