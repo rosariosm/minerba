@@ -423,12 +423,7 @@ blockquote {
     }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1441px){
-  .who-we-are-p {
-    font-size: 0.8em;
-    line-height: 18px;
-  }
-}
+
 
 @media only screen and (max-width: 768px) {
   .full-height{
@@ -469,7 +464,84 @@ blockquote {
 @media only screen and (max-width: 600px) {}
 @media only screen and (min-width: 601px) and (max-width: 900px) {}
 @media only screen and (min-width: 901px) and (max-width: 1200px) {}
-@media only screen and (min-width: 1201px) and (max-width: 1800px) {}
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+  .port-title-cont h2{
+    color: #fff;
+    margin: 80px 0 18px 0;
+    font-size: 2.2em;
+    line-height: 1em;
+  }  
+
+  .port-item:hover .port-overlay-cont {
+    top: -70px;
+  }
+
+  .port-btn-cont p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: .4px;
+  }
+
+  p, .blog2-post-prev-text, .icon-list li {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.3em;
+    letter-spacing: .5px;
+  }
+
+  .who-we-are-p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .menu-contact-info .contact-list {
+    font-size: 1.2em;
+  }
+
+  .breadcrumbs {
+    font-size: 13px;
+  }
+
+  .blog-post .post-prev-text p {
+    font-size: 1.5rem;
+  }
+
+  blockquote i{
+    font-size: 2.5rem;
+  }
+
+  blockquote {
+    margin-bottom: 4em;
+  }
+
+  .page-title.services {
+    font-size: 3.8em;
+  }
+
+  .inner-section-title {
+    font-size: 1.6em;
+  }
+
+
+  .related-posts .post-prev-title h3 {
+    font-size: 1.3em;
+    margin-bottom:1em;
+  }
+
+  .icon-list li {
+    line-height: 1.5em;
+    margin: .3em 0;
+  }
+
+  .gray-background p {
+    font-size: 1.6em;
+  }
+
+  .port-view-more-blue {
+    font-size: 1.7em;
+  }
+
+}
 @media only screen and (min-width: 1801px) {
   .port-title-cont h2{
     color: #fff;
@@ -536,6 +608,10 @@ blockquote {
 
   .gray-background p {
     font-size: 1.6em;
+  }
+
+  .port-view-more-blue {
+    font-size: 2em;
   }
 
 }
