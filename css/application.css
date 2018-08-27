@@ -463,7 +463,87 @@ blockquote {
 
 @media only screen and (max-width: 600px) {}
 @media only screen and (min-width: 601px) and (max-width: 900px) {}
-@media only screen and (min-width: 901px) and (max-width: 1200px) {}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .port-title-cont h2{
+    color: #fff;
+    margin: 50px 0 18px 0;
+    font-size: 1.7em;
+    line-height: 1em;
+  }  
+
+  .port-item:hover .port-overlay-cont {
+    top: -50px;
+  }
+
+  .port-overlay-cont {
+    padding: 2.2em;
+  }
+
+  .port-btn-cont p {
+    font-size: .9em;
+    line-height: 1.2em;
+    letter-spacing: .3px;
+  }
+
+  p, .blog2-post-prev-text, .icon-list li {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.3em;
+    letter-spacing: .2px;
+  }
+
+  .who-we-are-p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .menu-contact-info .contact-list {
+    font-size: 1em;
+  }
+
+  .breadcrumbs {
+    font-size: 13px;
+  }
+
+  .blog-post .post-prev-text p {
+    font-size: 1.5rem;
+  }
+
+  blockquote i{
+    font-size: 2.5rem;
+  }
+
+  blockquote {
+    margin-bottom: 4em;
+  }
+
+  .page-title.services {
+    font-size: 3.8em;
+  }
+
+  .inner-section-title {
+    font-size: 1.6em;
+  }
+
+
+  .related-posts .post-prev-title h3 {
+    font-size: 1.3em;
+    margin-bottom:1em;
+  }
+
+  .icon-list li {
+    line-height: 1.5em;
+    margin: .3em 0;
+  }
+
+  .gray-background p {
+    font-size: 1.6em;
+  }
+
+  .port-view-more-blue {
+    font-size: 1.5em;
+  }
+}
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
   .port-title-cont h2{
     color: #fff;
