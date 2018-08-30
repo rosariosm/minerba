@@ -14,7 +14,7 @@
 
 .flex-end {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .flex-baseline {
@@ -23,9 +23,7 @@
   justify-content: center;
 }
 
-.clear-communication{
-  padding-right: 3em;
-}
+
 
 .volcan {
   padding: 3em;
@@ -535,10 +533,33 @@ blockquote {
 
 
 
+@media only screen and (max-width: 600px){
+  .post-prev-img .clear-communication{
+    width: 50%;
+  }
 
+  .flex-baseline{
+    display: grid;    
+    justify-content: center;
+  }
 
-@media only screen and (max-width: 600px) {}
-@media only screen and (min-width: 601px) and (max-width: 900px) {}
+  blockquote.volcan {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .post-prev-img .clear-communication {
+    width: 40%;
+  }
+
+  .flex-baseline{
+    display: grid;    
+    justify-content: center;
+  }
+
+  
+}
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
   .icon-search {
     display: none;
@@ -622,8 +643,24 @@ blockquote {
   .port-view-more-blue {
     font-size: 1.5em;
   }
+
+  .quote p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+  } 
 }
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
+  .quote p {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+  } 
+
+  .clear-communication{
+    padding-right: 3em;
+  } 
+
   .port-title-cont h2{
     color: #fff;
     margin: 80px 0 18px 0;
@@ -702,6 +739,16 @@ blockquote {
 
 }
 @media only screen and (min-width: 1801px) {
+  .quote p {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+  } 
+
+  .clear-communication{
+    padding-right: 3em;
+  }
+
   .port-title-cont h2{
     color: #fff;
     margin: 80px 0 18px 0;
