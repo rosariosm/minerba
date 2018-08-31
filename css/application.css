@@ -1,3 +1,13 @@
+.minerba-btn {
+  border: 2px solid #1d67ae !important;
+  color: #1d67ae !important;
+}
+
+.minerba-btn:hover {
+  background-color: #1d67ae !important;
+  color: white !important;
+}
+
 .no-border {
   border-left: none !important;
 }
