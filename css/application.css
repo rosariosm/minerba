@@ -1,3 +1,8 @@
+.one-col {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
 .minerba-btn {
   border: 2px solid #1d67ae !important;
   color: #1d67ae !important;
