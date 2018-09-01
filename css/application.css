@@ -1,3 +1,7 @@
+.center {    
+    text-transform: uppercase;
+}
+
 .one-col {
   padding-left: 4em;
   padding-right: 4em;
@@ -564,12 +568,14 @@ blockquote {
 
   .center {
     text-align: center;
+    text-transform: uppercase;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .center {
     text-align: center;
+    text-transform: uppercase;
   }
 
   .post-prev-img .clear-communication {
@@ -617,7 +623,7 @@ blockquote {
 
   .who-we-are-p {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.7em;
   }
 
   .menu-contact-info .contact-list {
@@ -710,7 +716,7 @@ blockquote {
 
   .who-we-are-p {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.7em;
   }
 
   .menu-contact-info .contact-list {
