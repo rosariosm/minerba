@@ -314,7 +314,12 @@ var htmlT    = $('html'),
 /* --------------------------------------------
   PAGE LOADER
 --------------------------------------------- */
-$("body").imagesLoaded({ background: true }, function(){
+$("body").imagesLoaded( function(){
+  $("#loader3").fadeOut();
+  $("#loader-overflow").delay(200).fadeOut(700);
+});
+
+$("body").imagesLoaded({ background: '.page-title-img' }, function(){
   $("#loader3").fadeOut();
   $("#loader-overflow").delay(200).fadeOut(700);
 });
