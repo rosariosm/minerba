@@ -673,7 +673,7 @@ function initPageSliders(){
         $(".fullwidth-slider").owlCarousel({
             slideSpeed: 350,
             singleItem: true,
-           // autoHeight: true,
+            //autoHeight: true,
             navigation: true,
             navigationText: ["<span class='icon icon-arrows-left'></span>", "<i class='icon icon-arrows-right'></span>"]
         }); 

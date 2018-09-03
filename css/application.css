@@ -2,6 +2,10 @@
     text-transform: uppercase;
 }
 
+.owl-carousel {
+  touch-action: manipulation;
+}
+
 .one-col {
   padding-left: 4em;
   padding-right: 4em;
@@ -339,6 +343,11 @@ blockquote {
   margin: 1.3em 0;
 }
 
+.p-80-cont {
+  padding-top: 35px;
+  padding-bottom: 0;
+}
+
 .fes7-img-cont {
   padding: 2.5em 0 2.5em 6.5em;
 }
@@ -624,7 +633,10 @@ blockquote {
   .who-we-are-p {
     font-size: 1em;
     line-height: 1.7em;
+      margin-bottom: 50px !important;
   }
+
+
 
   .menu-contact-info .contact-list {
     font-size: 1em;
@@ -697,6 +709,8 @@ blockquote {
     line-height: 1em;
   }
 
+
+
   .port-item:hover .port-overlay-cont {
     top: -70px;
   }
@@ -716,7 +730,7 @@ blockquote {
 
   .who-we-are-p {
     font-size: 1em;
-    line-height: 1.7em;
+    line-height: 1.7em;   
   }
 
   .menu-contact-info .contact-list {
