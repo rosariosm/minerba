@@ -319,7 +319,7 @@ $("body").imagesLoaded( function(){
   $("#loader-overflow").delay(200).fadeOut(700);
 });
 
-$("body").imagesLoaded({ background: '.page-title-img' }, function(){
+$("#wrap").imagesLoaded({ background: '.page-title-img' }, function(){
   $("#loader3").fadeOut();
   $("#loader-overflow").delay(200).fadeOut(700);
 });
