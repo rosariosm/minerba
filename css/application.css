@@ -1,4 +1,4 @@
-.center {    
+.center {
     text-transform: uppercase;
 }
 
@@ -506,11 +506,6 @@ blockquote {
       height: inherit;
     }
 
-    .p-80-cont {
-      padding: 1em 0;
-      margin-bottom: 2em;
-    }
-
     .fes7-text-cont h1 {
       font-weight: bold;
       font-size: 2em;
@@ -566,8 +561,13 @@ blockquote {
     width: 50%;
   }
 
+  .p-80-cont {
+      padding: 1.5em;
+      margin-bottom: 2em;
+  }
+
   .flex-baseline{
-    display: grid;    
+    display: grid;
     justify-content: center;
   }
 
@@ -587,16 +587,21 @@ blockquote {
     text-transform: uppercase;
   }
 
+  .p-80-cont {
+      padding: 1em;
+      margin-bottom: 2em;
+  }
+
   .post-prev-img .clear-communication {
     width: 40%;
   }
 
   .flex-baseline{
-    display: grid;    
+    display: grid;
     justify-content: center;
   }
 
-  
+
 }
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
   .icon-search {
@@ -689,18 +694,18 @@ blockquote {
     font-size: 1.3em;
     line-height: 1.5em;
     letter-spacing: .1em;
-  } 
+  }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
   .quote p {
     font-size: 1.7em;
     line-height: 1.5em;
     letter-spacing: .1em;
-  } 
+  }
 
   .clear-communication{
     padding-right: 3em;
-  } 
+  }
 
   .port-title-cont h2{
     color: #fff;
@@ -730,7 +735,7 @@ blockquote {
 
   .who-we-are-p {
     font-size: 1em;
-    line-height: 1.7em;   
+    line-height: 1.7em;
   }
 
   .menu-contact-info .contact-list {
@@ -786,7 +791,7 @@ blockquote {
     font-size: 1.7em;
     line-height: 1.5em;
     letter-spacing: .1em;
-  } 
+  }
 
   .clear-communication{
     padding-right: 3em;
