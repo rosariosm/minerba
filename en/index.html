@@ -924,7 +924,7 @@
               <div class="footer-2-soc-a right">
                 <a href="https://www.facebook.com/psmcorpcomm" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://twitter.com/PSMCorpcomm" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://web.whatsapp.com/send?phone=5491128611050" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a id="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
               </div>
               <!-- Copyright -->
               <div class="left">
@@ -1038,6 +1038,18 @@
       });
 
       });//END document.ready
+    </script>
+
+    <!-- MOBILE DETECT -->
+    <script type="text/javascript" src="../js/mobile-detect.js"></script>
+    <script>
+      var md = new MobileDetect(window.navigator.userAgent);
+      if (md.mobile()) {
+        document.getElementById("whatsapp").href="https://api.whatsapp.com/send?phone=5491128611050";
+      }
+      else {
+        document.getElementById("whatsapp").href="https://web.whatsapp.com/send?phone=5491128611050";
+      }
     </script>
 
     <!-- MAIN SCRIPT -->
