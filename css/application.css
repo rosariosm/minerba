@@ -1,3 +1,7 @@
+.post-prev-text{
+  border-bottom: none;
+}
+
 .center {
     text-transform: uppercase;
 }
@@ -59,6 +63,8 @@ p, .blog2-post-prev-text, .icon-list li {
 blockquote {
   border-left: 2px solid rgb(21, 132, 203);
 }
+
+
 
 .page-title-cont.grey-dark-bg .bread-current {
   font-weight: bold;
