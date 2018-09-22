@@ -1,3 +1,20 @@
+.footer-2-copy-cont > .left > .center {
+  margin-top: 5px;
+}
+
+.footer-2-soc-a a {
+  font-size: 24px !important;
+}
+
+
+.footer-2-text-cont > a.a-mail {
+  color: rgba(255,255,255, .7);
+}
+
+.footer-2-text-cont > a.a-mail:hover {
+  color: rgba(255,255,255) !important;
+}
+
 .post-prev-text{
   border-bottom: none;
 }
