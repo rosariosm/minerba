@@ -875,16 +875,23 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
                         <div class="loc-icon-container wow fadeIn" data-wow-delay="200ms">
                           <span aria-hidden="true" class="icon_pin_alt main-menu-contact-icon"></span>
                         </div>
-                        <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms">Castex 3365 4C y 4D (C1425CDE)<br>
+                        <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms">Castex 3365 4° (C1425CDE)<br>
                         Buenos Aires, Argentina </div>
                       </li>
                       <li class="contact-phone clearfix">
                         <div class="loc-icon-container wow fadeIn" data-wow-delay="200ms">
                           <span aria-hidden="true" class="icon_phone main-menu-contact-icon"></span>
                         </div>
-                        <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms">+5411-4806-0322</div>
-                        <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms">+5411-2861-1050</div>
+                        <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms">+5411-4806-0322</div>                        
                       </li>
+
+                      <li class="contact-phone clearfix">
+                        <div class="loc-icon-container wow fadeIn" data-wow-delay="200ms">
+                           <span aria-hidden="true" class="main-menu-contact-icon whatsapp"><a id="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a></span>
+                          
+                        </div>
+                        <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms"><a id="whatsapp2" target="_blank">+5411-2861-1050</a></div>                        
+                      </li>         
                       <li class="contact-mail clearfix" >
                         <div class="loc-icon-container wow fadeIn" data-wow-delay="200ms">
                           <span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
@@ -892,7 +899,8 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
                         <div class="menu-contact-text-container wow fadeIn" data-wow-delay="200ms">
                           <a class="a-mail" href="minerba@minerbacc.com">minerba@minerbacc.com</a>
                         </div>
-                      </li>
+                      </li>                                                 
+                      
                     </ul>
                 </div>
               </div>
@@ -1031,9 +1039,11 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
       var md = new MobileDetect(window.navigator.userAgent);
       if (md.mobile()) {
         document.getElementById("whatsapp").href="https://api.whatsapp.com/send?phone=5491128611050";
+        document.getElementById("whatsapp2").href="https://api.whatsapp.com/send?phone=5491128611050";
       }
       else {
         document.getElementById("whatsapp").href="https://web.whatsapp.com/send?phone=5491128611050";
+        document.getElementById("whatsapp2").href="https://web.whatsapp.com/send?phone=5491128611050";
       }
 
     </script>
