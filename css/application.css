@@ -1,3 +1,33 @@
+.port-view-more-work-with-us:focus {
+  color: white;
+}
+
+.port-view-more-work-with-us {
+  background: #909193;
+  color: white;
+  font-weight: 100;
+  font-size: 1.7em;
+
+  display: block;
+  padding-top: 55px;
+  padding-bottom: 52px;
+  font-family: 'Lato',Arial,Helvetica,sans-serif;
+  line-height: 18px;
+  
+  letter-spacing: 4px;
+  
+}
+
+.port-view-more-work-with-us:hover {
+  background: #6d6e70;
+  color: white;  
+}
+
+/*.port-view-more-dark:hover > span {
+  color: #1d66af;  
+}*/
+
+
 .main-menu-contact-icon.whatsapp {
   padding-top: 8px;
 } 
