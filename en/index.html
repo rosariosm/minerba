@@ -989,18 +989,33 @@
     <!-- TYPEWRITER -->
     <script type="text/javascript" src="../js/typed.js"></script>
     <script>
-      $( document ).ready(function() {
-        var typed = new Typed('#typed', {
-          strings: ["START-UPS POSITION THEIR COMPANIES", "MULTINATIONALS DEAL WITH CRISIS", "LEADERS THROUGH THEIR TOUGHEST TASKS", "CONSOLIDATE YOUR BUSINESS IMAGE", "YOU COMMUNICATE EFFECTIVELY"],
-          typeSpeed: 60,
-          backSpeed: 12,
-          backDelay: 1300,
-          loop: true,
-          loopCount: Infinity,
+      var typed;
+
+      $( document ).ready(function() { 
+        window.typed = new Typed('#typed', {
+          strings: [""]    
         });
+        
+      });
+
+      $( window ).on( "load", function() { 
+
+        setTimeout(function() {
+          
+         window.typed.destroy();
+           var typed = new Typed('#typed', {
+            strings: ["START-UPS POSITION THEIR COMPANIES", "MULTINATIONALS DEAL WITH CRISIS", "LEADERS THROUGH THEIR TOUGHEST TASKS", "CONSOLIDATE YOUR BUSINESS IMAGE", "YOU COMMUNICATE EFFECTIVELY"],
+            typeSpeed: 60,
+            backSpeed: 12,    
+            backDelay: 1500,
+            loop: true,
+            loopCount: Infinity,
+          }); 
+            //your code to be executed after 1 second
+        }, 900);
+        
       });
     </script>
-
 
      <!-- ONE PAGE NAV -->
     <script src="../js/jquery.nav.js"></script>
@@ -1235,6 +1250,7 @@
 				});	//ready
 
 			</script>
+
 
 <!-- JS end -->
 
