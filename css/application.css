@@ -6,16 +6,8 @@
   background: #909193;
   color: white;
   font-weight: 100;
-  font-size: 1.7em;
-
-  display: block;
-  padding-top: 55px;
-  padding-bottom: 52px;
-  font-family: 'Lato',Arial,Helvetica,sans-serif;
-  line-height: 18px;
-  
-  letter-spacing: 4px;
-  
+  display: block;  
+  font-family: 'Lato',Arial,Helvetica,sans-serif;  
 }
 
 .port-view-more-work-with-us:hover {
@@ -614,6 +606,14 @@ blockquote {
 
 
 @media only screen and (max-width: 600px){
+  .port-view-more-work-with-us {  
+    font-size: 1.2em;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    line-height: 18px;
+    letter-spacing: 3px;
+  }
+
   .post-prev-img .clear-communication{
     width: 50%;
   }
@@ -639,6 +639,14 @@ blockquote {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
+  .port-view-more-work-with-us {  
+    font-size: 1.4em;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    line-height: 18px;
+    letter-spacing: 4px;  
+  }
+
   .center {
     text-align: center;
     text-transform: uppercase;
@@ -661,6 +669,15 @@ blockquote {
 
 }
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .port-view-more-work-with-us {  
+    font-size: 1.4em;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    line-height: 18px;
+    letter-spacing: 4px;  
+  }
+
+
   .icon-search {
     display: none;
   }
@@ -754,6 +771,14 @@ blockquote {
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
+  .port-view-more-work-with-us {  
+    font-size: 1.5em;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    line-height: 18px;
+    letter-spacing: 4px;  
+  }
+
   .quote p {
     font-size: 1.7em;
     line-height: 1.5em;
@@ -844,6 +869,14 @@ blockquote {
 
 }
 @media only screen and (min-width: 1801px) {
+  .port-view-more-work-with-us {  
+    font-size: 1.7em;  
+    padding-top: 45px;
+    padding-bottom: 41px;  
+    line-height: 18px;  
+    letter-spacing: 4px;  
+  }
+
   .quote p {
     font-size: 1.7em;
     line-height: 1.5em;

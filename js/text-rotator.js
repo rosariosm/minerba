@@ -20,7 +20,6 @@ $( window ).on( "load", function() {
             loop: true,
             loopCount: Infinity,
           }); 
-            //your code to be executed after 1 second
-        }, 900);
+        }, 600);
         
 });
