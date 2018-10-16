@@ -6,23 +6,23 @@
   background: #909193;
   color: white;
   font-weight: 100;
-  display: block;  
-  font-family: 'Lato',Arial,Helvetica,sans-serif;  
+  display: block;
+  font-family: 'Lato',Arial,Helvetica,sans-serif;
 }
 
 .port-view-more-work-with-us:hover {
   background: #6d6e70;
-  color: white;  
+  color: white;
 }
 
 /*.port-view-more-dark:hover > span {
-  color: #1d66af;  
+  color: #1d66af;
 }*/
 
 
 .main-menu-contact-icon.whatsapp {
   padding-top: 8px;
-} 
+}
 
 .footer-2-copy-cont > .left > .center {
   margin-top: 5px;
@@ -606,7 +606,7 @@ blockquote {
 
 
 @media only screen and (max-width: 600px){
-  .port-view-more-work-with-us {  
+  .port-view-more-work-with-us {
     font-size: 1.2em;
     padding-top: 23px;
     padding-bottom: 22px;
@@ -639,12 +639,12 @@ blockquote {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
-  .port-view-more-work-with-us {  
+  .port-view-more-work-with-us {
     font-size: 1.4em;
     padding-top: 23px;
     padding-bottom: 22px;
     line-height: 18px;
-    letter-spacing: 4px;  
+    letter-spacing: 4px;
   }
 
   .center {
@@ -669,12 +669,12 @@ blockquote {
 
 }
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
-  .port-view-more-work-with-us {  
+  .port-view-more-work-with-us {
     font-size: 1.4em;
     padding-top: 23px;
     padding-bottom: 22px;
     line-height: 18px;
-    letter-spacing: 4px;  
+    letter-spacing: 4px;
   }
 
 
@@ -771,12 +771,12 @@ blockquote {
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
-  .port-view-more-work-with-us {  
+  .port-view-more-work-with-us {
     font-size: 1.5em;
     padding-top: 33px;
     padding-bottom: 30px;
     line-height: 18px;
-    letter-spacing: 4px;  
+    letter-spacing: 4px;
   }
 
   .quote p {
@@ -840,6 +840,10 @@ blockquote {
     margin-bottom: 4em;
   }
 
+  blockquote.rse{
+    margin-bottom: 1em;
+  }
+
   .page-title.services {
     font-size: 3.8em;
   }
@@ -869,12 +873,12 @@ blockquote {
 
 }
 @media only screen and (min-width: 1801px) {
-  .port-view-more-work-with-us {  
-    font-size: 1.7em;  
+  .port-view-more-work-with-us {
+    font-size: 1.7em;
     padding-top: 45px;
-    padding-bottom: 41px;  
-    line-height: 18px;  
-    letter-spacing: 4px;  
+    padding-bottom: 41px;
+    line-height: 18px;
+    letter-spacing: 4px;
   }
 
   .quote p {
