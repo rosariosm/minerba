@@ -738,7 +738,7 @@
                       <div class="col-md-6 col-md-offset-5 fes7-text-cont p-80-cont">
                         <h1><span class="font-light">Natalia Biados</span></h1>
                         <div class="post-prev-info">
-                           Account Manager
+                           Digital marketing and communications specialist 
                         </div>
                         <p class="mb-60 who-we-are-p">
                          Communication, PR, Marketing & Branding specialist, she has a long career in multinational companies, oriented towards the development of creative and innovative strategies aligned with the client’s vision.
@@ -912,7 +912,7 @@
                   <li><a href="#we-are-different">WE ARE DIFFERENT</a></li>
                   <li><a href="#our-company">OUR COMPANY</a></li>
                   <li><a href="#who-we-are">WHO WE ARE</a></li>
-                  <li><a href="#contact">CONTACT</a></li>
+                  <li><a href="#contact" id="contact-btn">CONTACT</a></li>
                 </ul>
               </div>
 
@@ -1023,6 +1023,22 @@
 
      <!-- ONE PAGE NAV -->
     <script src="../js/jquery.nav.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('#contact-btn').on('click',function (e) {
+          e.preventDefault();
+          var target = this.hash,
+          $target = $(target);          
+
+         $('html, body').stop().animate({
+              'scrollTop': ($target.offset().top - $('header').height() - 1)
+          }, 900, 'swing');         
+
+      });
+    
+    });
+    </script>
     <script type="text/javascript">
       $(document).ready(function() {
       //ONE PAGE NAV  ---------------------------------------------------------------------------

@@ -94,8 +94,8 @@
 		<meta charset=utf-8 >
 		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 		<meta name="robots" content="index, follow" >
-		<meta name="keywords" content="web minerba comunicacion corporativa prodigioso volcan" >
-		<meta name="description" content="MINERBA Comunicación Corporativa - Comunicamos, Posicionamos, Relacionamos" >
+		<meta name="keywords" content="web minerba comunicacion corporativa prodigioso volcan patricia santa marina agencia de comunicacion" >
+		<meta name="description" content="MINERBA Comunicación Corporativa - Comunicamos, Posicionamos, Relacionamos. Somos una agencia de Comunicación Corporativa, basada en Buenos Aires, Argentina, que opera localmente en Chile y Uruguay." >
 		<meta name="author" content="Vladimir Azarushkin, Rosario Santa Marina">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -327,13 +327,13 @@
 
 
         <!-- SERVICES  -->
-        <div class="port-view-more-cont">
+        <div id='services' class="port-view-more-cont">
           <div   class="port-view-more-blue blue-gradient" >OFRECEMOS UNA ESTRATEGIA INTEGRAL</div>
         </div>
 
 
         <!-- SERVICES LIST -->
-        <div id='services' class="page-section">
+        <div class="page-section">
           <div class="relative">
 
             <!-- ITEMS GRID -->
@@ -840,7 +840,7 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
                       <div class="col-md-6 col-md-offset-5 fes7-text-cont p-80-cont">
                         <h1><span class="font-light">Natalia Biados</span></h1>
                         <div class="post-prev-info">
-                           Gerente de Cuentas
+                           Especialista en comunicación y Marketing digital
                         </div>
                         <p class="mb-60 who-we-are-p">
                           Especialista en Comunicación, Marketing &amp; Branding, Natalia cuenta con una
@@ -1029,7 +1029,7 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
                   <li><a href="#we-are-different">SOMOS DIFERENTES</a></li>
                   <li><a href="#our-company">NUESTRA EMPRESA</a></li>
                   <li><a href="#who-we-are">QUIENES SOMOS</a></li>
-                  <li><a href="#contact">CONTACTO</a></li>
+                  <li><a href="#contact" id="contact-btn">CONTACTO</a></li>
                 </ul>
               </div>
 
@@ -1126,9 +1126,21 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
 
     </script>
 
+    <script>
+      $(document).ready(function(){
+        $('#contact-btn').on('click',function (e) {
+          e.preventDefault();
+          var target = this.hash,
+          $target = $(target);          
 
-     <!-- ONE PAGE NAV -->
-    <script src="js/jquery.nav.js"></script>
+         $('html, body').stop().animate({
+              'scrollTop': ($target.offset().top - $('header').height() - 1)
+          }, 900, 'swing');         
+
+      });
+    
+    });
+    </script>
     <script type="text/javascript">
       $(document).ready(function() {
       //ONE PAGE NAV  ---------------------------------------------------------------------------
@@ -1175,6 +1187,11 @@ Proponemos proyectos inteligentes que generen resultados superadores.</p>
       });//END document.ready
     </script>
 
+
+
+     <!-- ONE PAGE NAV -->
+    <script src="js/jquery.nav.js"></script>
+    
     <!-- MAIN SCRIPT -->
 		<script src="js/main.js"></script>
 
