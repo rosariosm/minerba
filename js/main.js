@@ -958,3 +958,5 @@ function initNavStick2(){
   });
 };
 
+$('#myModal').modal('show')
+

@@ -10512,3 +10512,70 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   transition: all .3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   opacity:1;
 }
+
+/* MODAL */
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-dialog.modal-lg.crisis-modal {
+  margin: auto;
+  width: 373px;
+  margin-top: 200px;
+}
+
+.modal-content {
+  background:url('../images/popup_minerbacc.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 173px;
+}
+
+.crisis-modal .close {
+  color: white;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .modal-dialog.modal-lg.crisis-modal {
+    width: 570px;
+    margin-top: 200px;
+  }
+  .modal-content {
+    height: 271px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .modal-dialog.modal-lg.crisis-modal {
+    width: 760px;
+    margin-top: 190px;
+  }
+  .modal-content {
+    height: 366px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .modal-dialog.modal-lg.crisis-modal {
+    width: 970px;
+    margin-top: 170px;
+  }
+  .modal-content {
+    height: 471px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .modal-dialog.modal-lg.crisis-modal {
+    width: 1200px;
+    margin-top: 170px;
+  }
+  .modal-content {
+    height: 586px;
+  }
+}
