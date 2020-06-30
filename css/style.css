@@ -10623,7 +10623,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 
 .international-img {
-  margin-bottom: 30px;
-  height:100px;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
