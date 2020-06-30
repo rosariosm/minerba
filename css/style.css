@@ -10611,3 +10611,19 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   text-align: left;
 }
 
+
+.flex {
+  display: flex;
+}
+
+.international-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.international-img {
+  margin-bottom: 30px;
+  height:100px;
+}
+
