@@ -10629,3 +10629,30 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   justify-content: center;
 }
 
+
+/*  PROCESSES VIDEO */
+.international-section {
+  position: relative;
+}
+
+#myVideo {
+  position:relative;
+  z-index:0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.international-section .international-content {
+  display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
