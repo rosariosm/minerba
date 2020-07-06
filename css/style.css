@@ -10622,7 +10622,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 
 .international-container {
   height: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
@@ -10671,4 +10671,49 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 
 .international-container p {
   text-align: left;
+}
+
+
+.work-proc-1-bg.international {
+  background: #2c2c2c;
+}
+
+
+.international-container.mobile {
+  display: block;
+}
+
+.international-mobile .container.fes4-cont {
+  padding-top: 5%;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  .international-content .international-title  {
+    margin-bottom: 20px;
+  }
+
+  .international-p {
+    margin-bottom: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .international-container {
+    display: flex
+  }
+
+  .international-mobile {
+    display: none;
+  }
+
+  
 }
