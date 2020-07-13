@@ -10627,7 +10627,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 
 .international-img {
-  height: 15rem;
+  height: 170px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10635,6 +10635,10 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 
 .international-img .prwa-img {
   height: 75px;
+}
+
+.international-img .pv-img {
+  height: 170px;
 }
 
 
