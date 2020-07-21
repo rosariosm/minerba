@@ -348,7 +348,7 @@ blockquote {
   }
 }
 
-@media (min-width: 1600px) { 
+@media (min-width: 1366px) { 
   .logo-2 {
     width: 17em;
   }
