@@ -713,6 +713,7 @@ blockquote {
     font-size: .9em;
     line-height: 1.2em;
     letter-spacing: .3px;
+    text-align: left;
   }
 
   p, .blog2-post-prev-text, .icon-list li {
@@ -819,6 +820,7 @@ blockquote {
     font-size: 1.1em;
     line-height: 1.3em;
     letter-spacing: .4px;
+    text-align: left;
   }
 
   p, .blog2-post-prev-text, .icon-list li {
@@ -919,6 +921,7 @@ blockquote {
     font-size: 1.3em;
     line-height: 1.4em;
     letter-spacing: .6px;
+    text-align: left;
   }
 
   p, .blog2-post-prev-text, .icon-list li {

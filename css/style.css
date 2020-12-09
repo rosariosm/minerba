@@ -6172,12 +6172,18 @@ a:hover, a:focus {
     background-attachment: scroll;
   }
 }
-@media (max-width: 768px) {
-  .page-title-small .breadcrumbs, .breadcrumbs  {
-    margin-top: 0px;
-    text-align:left;
+@media (min-width: 768px) {
+  .page-title-img {
+    background-position-y: -60px;
   }
 }
+
+@media (min-width: 768px) {
+  .page-title-img {
+    background-attachment: scroll;
+  }
+} 
+
 @media (max-width: 767px) {
   .plr-0-767 {
    padding-left:0; padding-right:0;
